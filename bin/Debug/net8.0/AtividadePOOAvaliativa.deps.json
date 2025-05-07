@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AtividadePOOAvaliativa/1.0.0": {
+        "runtime": {
+          "AtividadePOOAvaliativa.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AtividadePOOAvaliativa/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

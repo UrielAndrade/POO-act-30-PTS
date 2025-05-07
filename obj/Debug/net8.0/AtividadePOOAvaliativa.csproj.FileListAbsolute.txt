@@ -1,0 +1,14 @@
+/home/uriel/Documentos/Programacao/CSharp/AtividadeAvaliativaPOO/AtividadePOOAvaliativa/obj/Debug/net8.0/AtividadePOOAvaliativa.GeneratedMSBuildEditorConfig.editorconfig
+/home/uriel/Documentos/Programacao/CSharp/AtividadeAvaliativaPOO/AtividadePOOAvaliativa/obj/Debug/net8.0/AtividadePOOAvaliativa.AssemblyInfoInputs.cache
+/home/uriel/Documentos/Programacao/CSharp/AtividadeAvaliativaPOO/AtividadePOOAvaliativa/obj/Debug/net8.0/AtividadePOOAvaliativa.AssemblyInfo.cs
+/home/uriel/Documentos/Programacao/CSharp/AtividadeAvaliativaPOO/AtividadePOOAvaliativa/obj/Debug/net8.0/AtividadePOOAvaliativa.csproj.CoreCompileInputs.cache
+/home/uriel/Documentos/Programacao/CSharp/AtividadeAvaliativaPOO/AtividadePOOAvaliativa/bin/Debug/net8.0/AtividadePOOAvaliativa
+/home/uriel/Documentos/Programacao/CSharp/AtividadeAvaliativaPOO/AtividadePOOAvaliativa/bin/Debug/net8.0/AtividadePOOAvaliativa.deps.json
+/home/uriel/Documentos/Programacao/CSharp/AtividadeAvaliativaPOO/AtividadePOOAvaliativa/bin/Debug/net8.0/AtividadePOOAvaliativa.runtimeconfig.json
+/home/uriel/Documentos/Programacao/CSharp/AtividadeAvaliativaPOO/AtividadePOOAvaliativa/bin/Debug/net8.0/AtividadePOOAvaliativa.dll
+/home/uriel/Documentos/Programacao/CSharp/AtividadeAvaliativaPOO/AtividadePOOAvaliativa/bin/Debug/net8.0/AtividadePOOAvaliativa.pdb
+/home/uriel/Documentos/Programacao/CSharp/AtividadeAvaliativaPOO/AtividadePOOAvaliativa/obj/Debug/net8.0/AtividadePOOAvaliativa.dll
+/home/uriel/Documentos/Programacao/CSharp/AtividadeAvaliativaPOO/AtividadePOOAvaliativa/obj/Debug/net8.0/refint/AtividadePOOAvaliativa.dll
+/home/uriel/Documentos/Programacao/CSharp/AtividadeAvaliativaPOO/AtividadePOOAvaliativa/obj/Debug/net8.0/AtividadePOOAvaliativa.pdb
+/home/uriel/Documentos/Programacao/CSharp/AtividadeAvaliativaPOO/AtividadePOOAvaliativa/obj/Debug/net8.0/AtividadePOOAvaliativa.genruntimeconfig.cache
+/home/uriel/Documentos/Programacao/CSharp/AtividadeAvaliativaPOO/AtividadePOOAvaliativa/obj/Debug/net8.0/ref/AtividadePOOAvaliativa.dll
