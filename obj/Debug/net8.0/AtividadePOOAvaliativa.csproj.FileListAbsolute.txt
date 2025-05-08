@@ -12,3 +12,4 @@
 /home/uriel/Documentos/Programacao/CSharp/AtividadeAvaliativaPOO/AtividadePOOAvaliativa/obj/Debug/net8.0/AtividadePOOAvaliativa.pdb
 /home/uriel/Documentos/Programacao/CSharp/AtividadeAvaliativaPOO/AtividadePOOAvaliativa/obj/Debug/net8.0/AtividadePOOAvaliativa.genruntimeconfig.cache
 /home/uriel/Documentos/Programacao/CSharp/AtividadeAvaliativaPOO/AtividadePOOAvaliativa/obj/Debug/net8.0/ref/AtividadePOOAvaliativa.dll
+/home/uriel/Documentos/Programacao/CSharp/AtividadeAvaliativaPOO/AtividadePOOAvaliativa/obj/Debug/net8.0/AtividadePOOAvaliativa.sourcelink.json

@@ -8,13 +8,13 @@ namespace AtividadePOOAvaliativa
         static void Main(string[] args)
         {
             Write("logradouro: ");
-            string logradouro= ReadLine();
+            string logradouro = ReadLine();
             Write("NomeRua: ");
-            string nomeRua= ReadLine();
+            string nomeRua = ReadLine();
             Write("Numero: ");
             int numero = Convert.ToInt32(ReadLine());
             Write("Bairro: ");
-            string bairro= ReadLine();
+            string bairro = ReadLine();
             Write("Cidade: ");
             string cidade = ReadLine();
             Write("Estado: ");
@@ -38,7 +38,7 @@ namespace AtividadePOOAvaliativa
             WriteLine($"Email Corporativo: {hotel.getEmailCorporativo()}");
             WriteLine($"Endereço: Rua {hotel.getEndereco().getRua()}, Nº {hotel.getEndereco().getNumero()}, Bairro {hotel.getEndereco().getBairro()}, {hotel.getEndereco().getCidade()} - {hotel.getEndereco().getEstado()}");
             Console.WriteLine("-----------------------------------");
-           
+
             Cliente cliente = new Cliente();
             cliente.setName("João Silva");
             cliente.setCodigo("CLI001");
@@ -46,7 +46,7 @@ namespace AtividadePOOAvaliativa
             cliente.setCpf("111.222.333-44");
             cliente.setEndereco(endereco);
             cliente.setProfisao("Engenheiro");
-           
+
             WriteLine("-----------------------------------");
             WriteLine("Cliente:");
             WriteLine($"Nome: {cliente.getName()}");
@@ -56,19 +56,42 @@ namespace AtividadePOOAvaliativa
             WriteLine($"Profissão: {cliente.getProfisao()}");
             WriteLine("-----------------------------------");
 
-            Quarto Quarto = new Quarto();
-            Quarto.setDescricao("Quarto Luxo SUPER suite master blaster com vista para o mar");
-            Quarto.setNumQuarto(101);
-            Quarto.setCategoria("Luxo");
-            Quarto.setQntCamas(2);
-            
-            WriteLine("-----------------------------------");
-            WriteLine($"Descricao do Quarto: {Quarto.getDescricao()}");
-            WriteLine($"Número do Quarto: {Quarto.getNumQuarto()}");
-            WriteLine($"Categoria do Quarto: {Quarto.getCategoria()}");
-            WriteLine($"Quantidade de Camas: {Quarto.getQntCamas()}");
+            //Cadastro de funcionario
+            Funcionario funcionario = new Funcionario();
+            funcionario.setName("Maria Oliveira");
+            funcionario.setCodigo("FUN001");
+            funcionario.setRg("87654321");
+            funcionario.setCpf("444.333.222-11");
+            funcionario.setEndereco(endereco);
+            funcionario.setSalario(2500.50m);
+            WriteLine("Funcionário:");
+            WriteLine($"Nome: {funcionario.getName()}");
+            WriteLine($"Código: {funcionario.getCodigo()}");
+            WriteLine($"RG: {funcionario.getRg()}");
+            WriteLine($"CPF: {funcionario.getCpf()}");
+            WriteLine($"Salário: {funcionario.getSalario()}");
             WriteLine("-----------------------------------");
 
+            //Cadastro de quarto
+            Quarto quarto = new Quarto("Quarto Executivo", 101, "Executiva", 2);
+
+            // Cadastro do Serviço
+            Servico servico = new Servico("Servico de quarto", 50.00m, "Alimentacao", true);
+
+            // Cadastro da Reserva
+            Reserva reserva = new Reserva("Reserva para fim de semana", quarto, DateTime.Now, DateTime.Now.AddDays(2), 200.00m, 400.00m, servico);
+
+            WriteLine("Reserva:");
+            WriteLine($"Descrição: {reserva.getDescricao()}");
+            WriteLine($"Data Início: {reserva.getDataInicio()}");
+            WriteLine($"Data Fim: {reserva.getDataFim()}");
+            WriteLine($"Valor Diária: {reserva.getValorDiaria()}");
+            WriteLine($"Valor Total: {reserva.getValorTotal()}");
+            WriteLine($"Quarto: {reserva.getQuarto().getDescricao()} - Nº {reserva.getQuarto().getNumQuarto()}");
+            WriteLine($"Serviço: {reserva.getServico().getDescricao()} - Valor: {reserva.getServico().getValor()}");
+            WriteLine("Cadastro finalizado. Pressione qualquer tecla para sair...");
+            ReadKey();
         }
+
     }
 }
