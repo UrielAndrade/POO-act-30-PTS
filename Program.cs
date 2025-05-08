@@ -56,6 +56,18 @@ namespace AtividadePOOAvaliativa
             WriteLine($"Profissão: {cliente.getProfisao()}");
             WriteLine("-----------------------------------");
 
+            Quarto Quarto = new Quarto();
+            Quarto.setDescricao("Quarto Luxo SUPER suite master blaster com vista para o mar");
+            Quarto.setNumQuarto(101);
+            Quarto.setCategoria("Luxo");
+            Quarto.setQntCamas(2);
+            
+            WriteLine("-----------------------------------");
+            WriteLine($"Descricao do Quarto: {Quarto.getDescricao()}");
+            WriteLine($"Número do Quarto: {Quarto.getNumQuarto()}");
+            WriteLine($"Categoria do Quarto: {Quarto.getCategoria()}");
+            WriteLine($"Quantidade de Camas: {Quarto.getQntCamas()}");
+            WriteLine("-----------------------------------");
 
         }
     }
