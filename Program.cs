@@ -40,7 +40,7 @@ namespace AtividadePOOAvaliativa
             Console.WriteLine("-----------------------------------");
 
             Cliente cliente = new Cliente();
-            endereco endCliente = new Endereco($"rua", "Jaogonsalves", 123, "Centro", "São Paulo", "SP", "12345678");
+            Endereco endCliente = new Endereco($"rua", "Jaogonsalves", 123, "Centro", "São Paulo", "SP", "12345678");
             cliente.setName("João Silva");
             cliente.setCodigo("CLI001");
             cliente.setRg("12345678");
@@ -55,16 +55,17 @@ namespace AtividadePOOAvaliativa
             WriteLine($"RG: {cliente.getRg()}");
             WriteLine($"CPF: {cliente.getCpf()}");
             WriteLine($"Profissão: {cliente.getProfisao()}");
+            WriteLine($"Endereco: {cliente.getEndereco().getEnderecoCompleto()}");
             WriteLine("-----------------------------------");
 
             //Cadastro de funcionario
             Funcionario funcionario = new Funcionario();
-            endereco endFuncionario = new Endereco($"rua", "Alameda", 456, "Jardins", "São Paulo", "SP", "87654321");
+            Endereco endFuncionario = new Endereco($"rua", "Alameda", 456, "Jardins", "São Paulo", "SP", "87654321");
             funcionario.setEndereco(endFuncionario);
             funcionario.setName("Maria Oliveira");
             funcionario.setCodigo("FUN001");
             funcionario.setRg("87654321");
-            funcionario.setCpf("444.333.222-11");;
+            funcionario.setCpf("444.333.222-11");
             funcionario.setSalario(2500.50m);
             WriteLine("Funcionário:");
             WriteLine($"Nome: {funcionario.getName()}");
@@ -72,6 +73,7 @@ namespace AtividadePOOAvaliativa
             WriteLine($"RG: {funcionario.getRg()}");
             WriteLine($"CPF: {funcionario.getCpf()}");
             WriteLine($"Salário: {funcionario.getSalario()}");
+            WriteLine($"End Funcionario: {funcionario.getEndereco().getEnderecoCompleto()}");
             WriteLine("-----------------------------------");
 
             //Cadastro de quarto
