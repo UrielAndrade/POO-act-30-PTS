@@ -21,14 +21,14 @@ namespace AtividadePOOAvaliativa
             string estado = ReadLine();
             Write("Cep: ");
             string cep = ReadLine();
-            Endereco endereco = new Endereco($"{logradouro}", $"{nomeRua}", numero, $"{bairro}", $"{cidade}", $"{estado}", $"{cep}");
+            Endereco enderecoHotel = new Endereco($"{logradouro}", $"{nomeRua}", numero, $"{bairro}", $"{cidade}", $"{estado}", $"{cep}");
 
             Hotel hotel = new Hotel();
             hotel.setNomeCompleto("Hotel Luxo");
             hotel.setNomeEmpresa("Luxo Ltda");
             hotel.setDataFundacao("01/01/2000");
             hotel.setEmailCorporativo("contato@luxo.com");
-            hotel.setEndereco(endereco);
+            hotel.setEndereco(enderecoHotel);
 
             Console.WriteLine("-----------------------------------");
             WriteLine("Hotel:");
@@ -40,11 +40,12 @@ namespace AtividadePOOAvaliativa
             Console.WriteLine("-----------------------------------");
 
             Cliente cliente = new Cliente();
+            endereco endCliente = new Endereco($"rua", "Jaogonsalves", 123, "Centro", "São Paulo", "SP", "12345678");
             cliente.setName("João Silva");
             cliente.setCodigo("CLI001");
             cliente.setRg("12345678");
             cliente.setCpf("111.222.333-44");
-            cliente.setEndereco(endereco);
+            cliente.setEndereco(endCliente);
             cliente.setProfisao("Engenheiro");
 
             WriteLine("-----------------------------------");
@@ -58,11 +59,12 @@ namespace AtividadePOOAvaliativa
 
             //Cadastro de funcionario
             Funcionario funcionario = new Funcionario();
+            endereco endFuncionario = new Endereco($"rua", "Alameda", 456, "Jardins", "São Paulo", "SP", "87654321");
+            funcionario.setEndereco(endFuncionario);
             funcionario.setName("Maria Oliveira");
             funcionario.setCodigo("FUN001");
             funcionario.setRg("87654321");
-            funcionario.setCpf("444.333.222-11");
-            funcionario.setEndereco(endereco);
+            funcionario.setCpf("444.333.222-11");;
             funcionario.setSalario(2500.50m);
             WriteLine("Funcionário:");
             WriteLine($"Nome: {funcionario.getName()}");
